@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.prysma{
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    
+}
+.prysmapeq{
+    font-size: 13px;
+    margin-top: 7px;
+    
+}
+
+.row{
+    display: flex;
+    height: 100vh;
+}
+
+.redes{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header, .enlaces{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    width: 180px;   
+}
+
